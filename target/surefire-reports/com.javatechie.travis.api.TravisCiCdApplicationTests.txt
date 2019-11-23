@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.javatechie.travis.api.TravisCiCdApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.554 s <<< FAILURE! - in com.javatechie.travis.api.TravisCiCdApplicationTests
+testWelcomeFailure  Time elapsed: 1.871 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.javatechie.travis.api.TravisCiCdApplicationTests.testWelcomeFailure(TravisCiCdApplicationTests.java:26)
+
